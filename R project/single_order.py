@@ -31,7 +31,7 @@ class Single_Order_Selection(Rasta, Apoorva, District):
          #approach1 restaurant selection strategy as lowest price offer
         
        
-        self.item_name = input("Enter the food you wish to order: ").lower()
+        self.item_name = input("Enter the food you wish to order: ")
         print()
         
         if self.item_name in R.menu_A:
